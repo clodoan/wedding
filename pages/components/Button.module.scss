@@ -1,0 +1,21 @@
+.buttonPrimary {
+  background-color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.02rem;
+  border: 1px solid black;
+  cursor: pointer;
+  width: fit-content;
+  margin: auto;
+
+  &:hover {
+    opacity: 0.5s;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+  }
+
+  a {
+    opacity: 1;
+  }
+}
