@@ -22,13 +22,13 @@ export default function HorizontalData({
           : styles.container + " " + styles.inverted
       }`}
     >
+      <div className={styles.imageContainer}>
+        <Image src={imagePath} alt={altText} layout="fill" objectFit="cover" />
+      </div>
       <div className={styles.content}>
         <h2>{title}</h2>
         <h3>{subtitle}</h3>
         {children}
-      </div>
-      <div className={styles.imageContainer}>
-        <Image src={imagePath} alt={altText} layout="fill" objectFit="cover" />
       </div>
     </div>
   );

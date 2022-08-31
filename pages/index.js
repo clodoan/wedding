@@ -22,18 +22,29 @@ export default function Home() {
             <small>We're getting married!</small>
             <h1>Soria & Antoine </h1>
             <small>10.14.20</small>
+            <Button> RSVP </Button>
           </div>
         </div>
+
+        <HorizontalData
+          title="Ceremony"
+          subtitle="4 PM"
+          imagePath="/images/placeholder.jpeg"
+          orientation="left"
+        >
+          <p>custom text</p>
+          <Button>See map</Button>
+        </HorizontalData>
+        <HorizontalData
+          title="Ceremony"
+          subtitle="4 PM"
+          imagePath="/images/placeholder.jpeg"
+          orientation="right"
+        >
+          <p>custom text</p>
+          <Button>See map</Button>
+        </HorizontalData>
       </main>
-      <HorizontalData
-        title="Ceremony"
-        subtitle="4 PM"
-        imagePath="/images/placeholder.jpeg"
-        orientation="left"
-      >
-        <p>custom text</p>
-        <Button>See map</Button>
-      </HorizontalData>
     </>
   );
 }

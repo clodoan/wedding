@@ -5,7 +5,7 @@ import styles from "./Navigation.module.scss";
 export default function Navigation() {
   return (
     <div className={styles.navigationBounds}>
-      <div className={styles.leftLinks}>
+      {/* <div className={styles.leftLinks}>
         <Link href="/story.js">
           <a>Our story</a>
         </Link>
@@ -15,11 +15,11 @@ export default function Navigation() {
         <Link href="/registry.js">
           <a>Registry</a>
         </Link>
-      </div>
+      </div> */}
       <h3>S&A 10.14.20</h3>
-      <div className={styles.rightLinks}>
+      {/* <div className={styles.rightLinks}>
         <Button> RSVP </Button>
-      </div>
+      </div> */}
     </div>
   );
 }
